@@ -1,0 +1,60 @@
+
+
+body {
+    background-image: linear-gradient(180deg, rgb(0, 180, 252) 23.8%, rgb(10, 109, 238)92%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Xanh Mono', monospace;
+}
+
+.results {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.result {
+    background-color: rgb(194, 191, 191);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    height: 400px;
+    width: 300px;
+}
+
+.result img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: rgb(3, 247, 36);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 1rem;
+    width: 300px;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+button:focus {
+    outline: none;
+}
