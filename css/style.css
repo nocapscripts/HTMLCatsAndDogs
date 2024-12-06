@@ -6,7 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    height: auto;
     margin: 0;
     font-family: 'Xanh Mono', monospace;
 }
@@ -57,4 +57,29 @@ button:active {
 
 button:focus {
     outline: none;
+}
+
+
+#cat_details {
+   
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: darkslategray;
+    color: #fff;
+    width: 32vh;
+    gap:  -1px;
+    padding: 1px;
+}
+
+#dog_details {
+    display: grid;
+    text-align: center;
+    width: 100%;
+    background-color: darkslategray;
+    color: #fff;
+    width: 32vh;
 }

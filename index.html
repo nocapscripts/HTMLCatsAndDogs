@@ -4,32 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>CATS AND DOGOS</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.8/axios.js" integrity="sha512-+dJa1RvuE8/HFftifMtr7hqixdEkb/DizfXUZAA0pyZeVdNnyZyKy9RnIWi0JSWUznbCNbaQNn0E6nbtrdL+9g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>KASSID JA KOERAD</title>
 </head>
- 
+
 <body>
     <div class="results">
-
-       <div class="result" id= "cat_result">
-            <p>Random Cat</p>
-
+        <div class="result" id="cat_result">
+            <p>Suvaline kass</p>
+            
         </div>
+    
 
-       <div class="result" id= "dog_result">
-            <p>Random Dog</p>
-
+        <div class="result" id="dog_result">
+            <p>Suvaline koer</p>
+           
         </div>
-
+        
     </div>
+
     <div class="buttons">
-
-      <button id= "cat_btn">Get a Cat</button>
-
-      <button id= "dog_btn">Get a Dog</button>
-
+        <button id="cat_btn">Kass</button>
+        <button id="dog_btn">Koer</button>
     </div>
-<script scr="js/catsdogs.js"></script>
 
+    <div id="cat_details">
+        <!-- Random cat image will be displayed here -->
+    </div>
 
+    <div id="dog_details">
+        <!-- Random dog image will be displayed here -->
+    </div>
+
+    <script src="js/catsdogs.js"></script>
 </body>
 </html>
